@@ -1,93 +1,133 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Layout</title>
-<link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <h1>Dashboard</h1>
-    <ul>
-      <li><i></i> Home</li>
-      <li><i></i> Profile</li>
-      <li><i></i> Messages</li>
-      <li><i></i> History</li>
-      <li><i></i> Tasks</li>
-      <li><i></i> Communities</li>
-      <li><i></i> Settings</li>
-      <li><i></i> Support</li>
-      <li><i></i> Privacy</li>
-    </ul>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Layout</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1>Dashboard</h1>
+      <ul>
+        <li><img src="./assets/home.svg" alt="home logo" /> Home</li>
+        <li><img src="./assets/profile.svg" alt="profile logo" /> Profile</li>
+        <li><img src="./assets/message.svg" alt="message logo" /> Messages</li>
+        <li><img src="./assets/history.svg" alt="history logo" /> History</li>
+        <li><img src="./assets/task.svg" alt="tasks logo" /> Tasks</li>
+        <li>
+          <img src="./assets/communities.svg" alt="communities logo" />
+          Communities
+        </li>
+        <div class="breaker">
 
-  <!-- Header -->
-  <div class="header">
-    <div class="profile">
-      <strong>Hi there, Morgan Oakley (@morgan)</strong>
-    </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Search...">
-    </div>
-    <div class="actions">
-      <button>New</button>
-      <button>Upload</button>
-      <button>Share</button>
-    </div>
-  </div>
-
-  <!-- Main Content -->
-  <div class="main">
-    <!-- Projects Section -->
-    <div class="projects">
-      <div class="project-card">
-        <h3>Super Cool Project</h3>
-        <p>Sed tempus ut lacus ut scelerisque...</p>
-      </div>
-      <div class="project-card">
-        <h3>Less Cool Project</h3>
-        <p>Nullam condimentum ipsum ut lectus...</p>
-      </div>
-      <div class="project-card">
-        <h3>Impossible App</h3>
-        <p>In hac habitasse platea dictumst...</p>
-      </div>
-      <div class="project-card">
-        <h3>Easy Peasy App</h3>
-        <p>Etiam cursus eros ac efficitur...</p>
-      </div>
-      <div class="project-card">
-        <h3>Ad Blocker</h3>
-        <p>Quisque eget rutrum nisl...</p>
-      </div>
-      <div class="project-card">
-        <h3>Money Maker</h3>
-        <p>Praesent convallis, libero quis...</p>
-      </div>
+        <li>
+          <img src="./assets/settings.svg" alt="settings logo" /> Settings
+        </li>
+        <li><img src="./assets/support.svg" alt="support logo" /> Support</li>
+        <li><img src="./assets/privacy.svg" alt="privacy logo" /> Privacy</li>
+        </div>
+      </ul>
     </div>
 
-    <!-- Announcements and Trending -->
-    <div class="side-section">
-      <!-- Announcements -->
-      <div class="announcements">
+    <!-- Header -->
+    <div class="header">
+      <div class="search-bar">
+        <img src="./assets/magnify.svg" class="search-icon" alt="search icon" />
+        <input type="text" placeholder="Search..." />
+          <img
+            src="./assets/bell-ring.svg"
+            class="notification"
+            alt="notification"
+          />
+          <img
+            src="./assets/profile-pics/wolf.png"
+            class="profile-pics"
+            alt="Profile picture"
+          />
+          <h2>Morgan Oakley</h2>
+        </div>
+        
+
+        <div class="profile-bar">
+        <div>
+          <img src="./assets/profile-pics/wolf.png" class="logo" alt="" />
+          <div class="profile">
+            <div class="hi">Hi there,</div>
+            <h2>Morgan Oakley (@morgan)</h2>
+          </div>
+    
+        </div>
+          <div class="actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+        </div>
+      
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Projects Section -->
+      <div class="projects">
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>Sed tempus ut lacus ut scelerisque Lorem ipsum dolor sit amet consectetur Lorem, ipsum. adipisicing elit. Iure, magnam....</p>
+          <div class="attachments"><img src="./assets/star-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/eye-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/rope.svg" alt="attachment pics" class="attachment-pics"></div>
+        </div>
+        <div class="project-card">
+          <h3>Less Cool Project</h3>
+          <p>Nullam condimentum ipsum ut lectus Lorem ipsum dolor sit amet consectetur adipisicing Lorem. Natus amet accusantium repellat voluptas incidunt ducimus....</p>
+          <div class="attachments"><img src="./assets/star-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/eye-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/rope.svg" alt="attachment pics" class="attachment-pics"></div>
+        </div>
+        <div class="project-card">
+          <h3>Impossible App</h3>
+          <p>In hac habitasse platea dictumst Lorem, ipsum dolor sit amet consectetur adipisicing Lorem, ipsum. Dolor est numquam doloremque nostrum....</p>
+          <div class="attachments"><img src="./assets/star-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/eye-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/rope.svg" alt="attachment pics" class="attachment-pics"></div>
+        </div>
+        <div class="project-card">
+          <h3>Easy Peasy App</h3>
+          <p>Etiam cursus eros ac efficitur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum repudiandae quam eveniet aspernatur rem....</p>
+          <div class="attachments"><img src="./assets/star-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/eye-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/rope.svg" alt="attachment pics" class="attachment-pics"></div>
+        </div>
+        <div class="project-card">
+          <h3>Ad Blocker</h3>
+          <p>Quisque eget rutrum nisl Lorem ipsum dolor sit amet,consectetur adipisicing elit. Et, deserunt....</p>
+          <div class="attachments"><img src="./assets/star-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/eye-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/rope.svg" alt="attachment pics" class="attachment-pics"></div>
+        </div>
+        <div class="project-card">
+          <h3>Money Maker</h3>
+          <p>Praesent convallis, libero quis Lorem ipsum dolor sit amet consectetur adipisicing Lorem, ipsum. Odio exercitationem praesentium molestias....</p>
+          <div class="attachments"><img src="./assets/star-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/eye-plus.svg" alt="attachment pics" class="attachment-pics"><img src="./assets/rope.svg" alt="attachment pics" class="attachment-pics"></div>
+        </div>
+      </div>
+
+      <!-- Announcements and Trending -->
+      <div class="side-section">
+        <!-- Announcements -->
         <h4>Announcements</h4>
-        <p>Site Maintenance...</p>
-        <p>Community Share Day...</p>
-        <p>Updated Privacy Policy...</p>
-      </div>
+        <div class="announcements">
+          <h3>Site Maintenance...</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. mvel nostrum!</p>
+          <div class="lines"></div>
+          <h3>Community Share Day...</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut?</p>
+          <div class="lines"></div>
+          <h3>Updated Privacy Policy...</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum praesentium at unde ipsam.</p>
+        </div>
 
-      <!-- Trending -->
-      <div class="trending">
+        <!-- Trending -->
         <h4>Trending</h4>
-        <p>@tegan - World Peace Builder</p>
-        <p>@morgan - Super Cool Project</p>
-        <p>@kendall - Life Changing App</p>
-        <p>@alex - No Traffic Maker</p>
+        <div class="trending">
+          <div> <img src="./assets/profile-pics/dog1.png" class="profile-pics" alt="profile-pics"> <h3>@tegan</h3> <p>World Peace Builder</p></div>
+          <div> <img src="./assets/profile-pics/wolf.png" class="profile-pics" alt="profile-pics"> <h3>@morgan</h3> <p>Super Cool Project</p></div>
+          <div> <img src="./assets/profile-pics/footprint.png" class="profile-pics" alt="profile-pics"> <h3>@kendall</h3> <p>Life Changing App</p></div>
+          <div> <img src="./assets/profile-pics/dog2.png" class="profile-pics" alt="profile-pics"> <h3>@kendall</h3> <p>No Traffic Maker</p></div>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
