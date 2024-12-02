@@ -251,8 +251,20 @@ body {
     margin: 10px 0;
     font-size: 16px;
   }
+  .sidebar ul, .sidebar ul div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .breaker {
+    margin: 0;
+  }
 
   .header {
+    gap: 20px;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     padding: 10px;
@@ -262,6 +274,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
+    gap: 20px;
   }
 
   .search-icon {
@@ -278,6 +291,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 20px;
   }
 
   .profile-bar .actions {
@@ -306,7 +320,7 @@ body {
   }
 
   .project-card {
-    height: auto;
+    height: fit-content + 20px;
     margin-bottom: 15px;
   }
 
