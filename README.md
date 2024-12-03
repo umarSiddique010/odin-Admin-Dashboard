@@ -1,4 +1,4 @@
-# odin-Admin_Dashboard
+# odin-Admin-Dashboard
 
 This project is assignment project from HTML and CSS intermediate section of The Odin Projects. Although the Project is given by Odin but All the Functionality, styles and Structures was originally created by me
 
@@ -23,4 +23,4 @@ This project is assignment project from HTML and CSS intermediate section of The
 - Media query 
 
 
-## see my work live -> https://umarsiddique010.github.io/odin-Admin_Dashboard/
+## see my work live -> https://umarsiddique010.github.io/odin-Admin-Dashboard/
